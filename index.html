@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <!-- Main css -->
+      <link rel="stylesheet" href="./style.css">
+      <!-- BS 4 -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+      <title>LOVE STORY</title>
+</head>
+
+<body style="background-image: url(./4450.jpg); background-repeat: repeat;">
+      <div id="root" class="h-100">
+
+            <audio src="./mylove.mp3" autoplay="true"></audio>
+            <div class="wrapper">
+                  <!-- Button trigger modal -->
+                  <button type="button" class="btn next btn1" data-toggle="modal" data-target="#exampleModal">
+                        Điều đặc biệt dành cho em nè
+                  </button>
+
+                  <!-- Modal -->
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                              <div class="modal-content">
+                                    <div class="modal-header">
+                                          <h5 class="modal-title" id="exampleModalLabel">Để nhận được món quà đặc biệt từ anh em hãy vượt qua các câu hỏi sau</h5>
+                                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                          </button>
+                                    </div>
+                                    <div class="modal-body">
+                                       <div class="form-group" id="">
+                                         <label for="" id="label">
+                                          Một là, đây là ngày mà cả hay đứa đều mong chờ nhất?
+                                         </label>
+                                         <input type="text" 
+                                           class="form-control" name="" id="name" aria-describedby="helpId" placeholder="">
+                                           <label for="" id="label">
+                                                Hai là, nơi đầu tiên mình hôn nhau
+                                               </label>
+                                           <input type="text" 
+                                           class="form-control mt-3" name="" id="address" aria-describedby="helpId" placeholder="">
+                                       </div>
+                                      
+                                       
+                                    </div>
+                                    <div class="modal-footer" id="footer">
+                                          <button type="button" id="logIn" class="btn next m-0">Hoàn thành</button>
+                                    </div>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+
+      </div>
+      <script src="./app.js"></script>
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</body>
